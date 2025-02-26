@@ -13,7 +13,7 @@ def search_for_manga(manga,lang="en"):
 	if manga_data==[]:
 		print("This manga doesn't exist")
 		sys.exit()
-	manga_title=manga_data[0]["attributes"]["title"][lang]p
+	manga_title=manga_data[0]["attributes"]["title"][lang]
 	manga_description=manga_data[0]["attributes"]["description"][lang]
 	manga_id=manga_data[0]["id"]
 	return (manga_title,manga_description,manga_id)
